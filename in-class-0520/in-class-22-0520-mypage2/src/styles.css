@@ -1,0 +1,75 @@
+body {
+  background-color: #202020;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #333333;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.cardMedia {
+  height: 300px;
+}
+
+.cardContent {
+  background-color: #444444;
+}
+
+.cardTitle {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.cardDetail {
+  background-color: #333333;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.cardDetailMedia {
+  height: 500px;
+}
+
+.cardDetailContent {
+  padding: 20px;
+}
+
+.cardDetailTitle {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #bbbbbb;
+}
+
+.chip {
+  background-color: #555555;
+  color: #ffffff;
+  margin: 5px;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
